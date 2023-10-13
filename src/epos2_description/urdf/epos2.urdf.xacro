@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot name="epos2" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find epos2_description)/urdf/epos2.xacro" />
+  <xacro:include filename="$(find epos2_description)/urdf/epos2.ros2_control.xacro" />
+  
+<xacro:epos2  parent="world">
+    <origin xyz="0 0 0" rpy="3.14 0 0" />
+</xacro:epos2>
+
+<link name="world"/>
+  <xacro:epos2_ros2_control name="epos2_ros2_control"/>
+</robot>
