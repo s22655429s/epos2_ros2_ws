@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000146] (epos2_description) JobQueued: {'identifier': 'epos2_description', 'dependencies': OrderedDict()}
+[0.000190] (epos2_description) JobStarted: {'identifier': 'epos2_description'}
+[0.047831] (epos2_description) JobProgress: {'identifier': 'epos2_description', 'progress': 'cmake'}
+[0.048205] (epos2_description) Command: {'cmd': ['/usr/bin/cmake', '/home/iclab/work/epos_ws/src/epos2_description', '-DCMAKE_INSTALL_PREFIX=/home/iclab/work/epos_ws/src/epos2_description/install/epos2_description'], 'cwd': '/home/iclab/work/epos_ws/src/epos2_description/build/epos2_description', 'env': OrderedDict([('HOSTNAME', 'iclab-H270M-D3H'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/iclab'), ('OLDPWD', '/home/iclab/work/epos_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/iclab/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a26d0844-4277-4067-a341-a343a1ceac95'), ('PWD', '/home/iclab/work/epos_ws/src/epos2_description/build/epos2_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'Asia/Taipei'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096843] (epos2_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099213] (-) TimerEvent: {}
+[0.148192] (epos2_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.154523] (epos2_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199341] (-) TimerEvent: {}
+[0.212244] (epos2_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.219020] (epos2_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.219244] (epos2_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.219668] (epos2_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.222401] (epos2_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.289680] (epos2_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.296853] (epos2_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.297131] (epos2_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.297545] (epos2_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.299431] (-) TimerEvent: {}
+[0.300558] (epos2_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399521] (-) TimerEvent: {}
+[0.448784] (epos2_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.499613] (-) TimerEvent: {}
+[0.535661] (epos2_description) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.2 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[0.575016] (epos2_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.581293] (epos2_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.590644] (epos2_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.599709] (-) TimerEvent: {}
+[0.605772] (epos2_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.628510] (epos2_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699835] (-) TimerEvent: {}
+[0.772138] (epos2_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.773337] (epos2_description) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.773521] (epos2_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.799944] (-) TimerEvent: {}
+[0.846242] (epos2_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.849608] (epos2_description) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.883819] (epos2_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.895104] (epos2_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900046] (-) TimerEvent: {}
+[0.956715] (epos2_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.956951] (epos2_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000174] (-) TimerEvent: {}
+[1.018759] (epos2_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.019764] (epos2_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.100293] (-) TimerEvent: {}
+[1.200552] (-) TimerEvent: {}
+[1.300807] (-) TimerEvent: {}
+[1.401056] (-) TimerEvent: {}
+[1.501312] (-) TimerEvent: {}
+[1.601560] (-) TimerEvent: {}
+[1.664836] (epos2_description) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.667176] (epos2_description) StdoutLine: {'line': b'-- Found rviz2: 11.2.8 (/opt/ros/humble/share/rviz2/cmake)\n'}
+[1.681634] (epos2_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:24 (find_package):\n'}
+[1.681793] (epos2_description) StderrLine: {'line': b'  By not providing "Findros2_control.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.681861] (epos2_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.681919] (epos2_description) StderrLine: {'line': b'  "ros2_control", but CMake did not find one.\n'}
+[1.681980] (epos2_description) StderrLine: {'line': b'\n'}
+[1.682035] (epos2_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ros2_control" with\n'}
+[1.682090] (epos2_description) StderrLine: {'line': b'  any of the following names:\n'}
+[1.682143] (epos2_description) StderrLine: {'line': b'\n'}
+[1.682195] (epos2_description) StderrLine: {'line': b'    ros2_controlConfig.cmake\n'}
+[1.682247] (epos2_description) StderrLine: {'line': b'    ros2_control-config.cmake\n'}
+[1.682300] (epos2_description) StderrLine: {'line': b'\n'}
+[1.682352] (epos2_description) StderrLine: {'line': b'  Add the installation prefix of "ros2_control" to CMAKE_PREFIX_PATH or set\n'}
+[1.682404] (epos2_description) StderrLine: {'line': b'  "ros2_control_DIR" to a directory containing one of the above files.  If\n'}
+[1.682456] (epos2_description) StderrLine: {'line': b'  "ros2_control" provides a separate development package or SDK, be sure it\n'}
+[1.682509] (epos2_description) StderrLine: {'line': b'  has been installed.\n'}
+[1.682560] (epos2_description) StderrLine: {'line': b'\n'}
+[1.682612] (epos2_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.682664] (epos2_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.682723] (epos2_description) StdoutLine: {'line': b'See also "/home/iclab/work/epos_ws/src/epos2_description/build/epos2_description/CMakeFiles/CMakeOutput.log".\n'}
+[1.689053] (epos2_description) CommandEnded: {'returncode': 1}
+[1.701692] (-) TimerEvent: {}
+[1.733261] (epos2_description) JobEnded: {'identifier': 'epos2_description', 'rc': 1}
+[1.734247] (-) EventReactorShutdown: {}

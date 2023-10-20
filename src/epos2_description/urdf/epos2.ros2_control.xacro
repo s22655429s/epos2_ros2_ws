@@ -15,9 +15,10 @@
             <param name="protocol_stack_name">MAXON SERIAL V2</param>
             <param name="interface_name">USB</param>
             <param name="serial_number">0x602068006926</param>
-            <param name="clear_faults">false</param>
-            <param name="encoder_resolution">2</param>
-            <!-- <param name="use_dummy">true</param> -->
+            <!-- <param name="serial_number">0x602068006864</param> -->
+            <param name="clear_faults">true</param>
+            <param name="encoder_resolution">1024</param>
+            <param name="use_dummy">false</param>
             <param name="profile_position_velocity">30</param>
             <param name="profile_position_acceleration">50</param>
             <param name="profile_position_deceleration">50</param>
@@ -30,13 +31,14 @@
             <state_interface name="velocity"/>
         </joint>
 
-        <!-- <transmission name="rear_right_wheel_joint_transmission">
+        <transmission name="transmission">
             <plugin>transmission_interface/SimpleTransmission</plugin>
-            <actuator name="rear_right_motor" role="rear_right_motor"/>
-            <joint name="rear_right_wheel_joint" role="rear_right_wheel_joint">
+            <actuator name="joint_1_actuator" role="actuator_1"/>
+            <joint name="joint_1" role="joint_1">
                 <mechanical_reduction>53</mechanical_reduction>
+                <offset>0.0</offset>
             </joint>
-        </transmission> -->
+        </transmission>
         
         
         

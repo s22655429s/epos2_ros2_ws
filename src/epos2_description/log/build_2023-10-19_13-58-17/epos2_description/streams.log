@@ -1,0 +1,54 @@
+[0.049s] Invoking command in '/home/iclab/work/epos_ws/src/epos2_description/build/epos2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/iclab/work/epos_ws/src/epos2_description -DCMAKE_INSTALL_PREFIX=/home/iclab/work/epos_ws/src/epos2_description/install/epos2_description
+[0.097s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.212s] -- Detecting C compiler ABI info - done
+[0.219s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.219s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.222s] -- Detecting CXX compiler ABI info
+[0.290s] -- Detecting CXX compiler ABI info - done
+[0.297s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.297s] -- Detecting CXX compile features
+[0.297s] -- Detecting CXX compile features - done
+[0.300s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.449s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.536s] -- Found robot_state_publisher: 3.0.2 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.575s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.581s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.590s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.772s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.773s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.773s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.846s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.849s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.884s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.895s] -- Looking for pthread.h
+[0.957s] -- Looking for pthread.h - found
+[0.957s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.019s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.020s] -- Found Threads: TRUE  
+[1.665s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.667s] -- Found rviz2: 11.2.8 (/opt/ros/humble/share/rviz2/cmake)
+[1.682s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[1.682s]   By not providing "Findros2_control.cmake" in CMAKE_MODULE_PATH this project
+[1.682s]   has asked CMake to find a package configuration file provided by
+[1.682s]   "ros2_control", but CMake did not find one.
+[1.682s] 
+[1.682s]   Could not find a package configuration file provided by "ros2_control" with
+[1.682s]   any of the following names:
+[1.682s] 
+[1.682s]     ros2_controlConfig.cmake
+[1.682s]     ros2_control-config.cmake
+[1.682s] 
+[1.682s]   Add the installation prefix of "ros2_control" to CMAKE_PREFIX_PATH or set
+[1.682s]   "ros2_control_DIR" to a directory containing one of the above files.  If
+[1.682s]   "ros2_control" provides a separate development package or SDK, be sure it
+[1.682s]   has been installed.
+[1.682s] 
+[1.682s] [0m
+[1.682s] -- Configuring incomplete, errors occurred!
+[1.683s] See also "/home/iclab/work/epos_ws/src/epos2_description/build/epos2_description/CMakeFiles/CMakeOutput.log".
+[1.689s] Invoked command in '/home/iclab/work/epos_ws/src/epos2_description/build/epos2_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/iclab/work/epos_ws/src/epos2_description -DCMAKE_INSTALL_PREFIX=/home/iclab/work/epos_ws/src/epos2_description/install/epos2_description
