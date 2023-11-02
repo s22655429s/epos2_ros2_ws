@@ -1,4 +1,5 @@
-# epos2_ros2_ws
+```shell
+
 $rosdep install --from-paths src --ignore-src -r -y
 $colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 $. install/setup.bash 
@@ -14,3 +15,4 @@ $ros2 action send_goal /joint_trajectory_controller/follow_joint_trajectory cont
     ]
   }
 }"
+```
